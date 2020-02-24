@@ -16,8 +16,6 @@ namespace Quiz_Scores
             quizzes = DisplayGetQuizScores();
             DisplayQuizScores(quizzes);
             DisplayAverage(quizzes);
-
-
         }
 
         static void DisplayAverage(double[] quizzes) 
